@@ -10,8 +10,21 @@
     "singleton": "ts-node src/singleton/main.ts",
     "dev": "tsc -w"
   },
-  "dependencies": {
-    "typescript": "^5.0.0",
-    "ts-node": "^10.9.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobolovskaya/neo-design-patterns-hw-04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tobolovskaya/neo-design-patterns-hw-04/issues"
+  },
+  "homepage": "https://github.com/tobolovskaya/neo-design-patterns-hw-04#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
-} 
+}
